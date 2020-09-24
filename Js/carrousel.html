@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.pngitem.com/pimgs/m/136-1360011_transparent-camera-emoji-png-emoji-camera-icon-png.png">
     <title>Carrousel</title>
 </head>
 <style>
@@ -28,12 +29,13 @@
         width: 200px;
         height: 300px;
         border-radius: 30px;
-        background-color: purple;
+        background-color: white;
         overflow: hidden;
         margin-right: 10px;
         display: inline-block;
         cursor: pointer;
         transition: 450ms;
+        position: relative;
         /*  Esto sirvió pra que cuando se desplazaran los elementos se viera más fluido el movimiento */
         transform-origin: center left;
     }
@@ -47,15 +49,51 @@
     }
     .carousel__container:hover .carousel-item:hover{
         transform: scale(1.5);
+        /* Sirve para regrear a la opacidad completa al elemento seleccionado */
         opacity: 1;
+    }
+
+    .carousel-item__img{
+        width: 200px;
+        height: 300px;
+        /* Esto sirvió para que la imagen no se deformara y más bien, escalara */
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .carousel-item__details{
+        background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0), 100%);
+        font-size: 10px;
+        opacity: ;
+        transition: 450ms opacity;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
     }
 </style>
 <body>
     <section class="carousel">
         <div class="carousel__container">
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="https://images.pexels.com/photos/5203869/pexels-photo-5203869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="woman">
+                <div class="carousel-item__details">
+                    <div>
+                        <img src="https://img.icons8.com/fluent/48/000000/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/fluent/48/000000/add-image.png" alt="plus"/>
+                    </div>
+                    <p class="carousel-item__details--title">Título descriptivo</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="https://images.pexels.com/photos/3236735/pexels-photo-3236735.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="beautiful woman">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="https://images.pexels.com/photos/5286173/pexels-photo-5286173.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Beautiful boys">
+            </div>
             <div class="carousel-item"></div>
             <div class="carousel-item"></div>
         </div>
