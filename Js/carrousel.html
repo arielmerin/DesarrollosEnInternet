@@ -33,6 +33,21 @@
         margin-right: 10px;
         display: inline-block;
         cursor: pointer;
+        transition: 450ms;
+        /*  Esto sirvió pra que cuando se desplazaran los elementos se viera más fluido el movimiento */
+        transform-origin: center left;
+    }
+    .carousel__item:hover ~ .carousel__item{
+        /* Esto hace que las demás figuras se trasladen a otro lugar  */
+        transform: translate3d(100px, 0,0);
+        
+    }
+    .carousel__container:hover .carousel__item{
+        opacity: 0.3;
+    }
+    .carousel__container:hover .carousel__item:hover{
+        transform: scale(1.5);
+        opacity: 1;
     }
 </style>
 <body>
