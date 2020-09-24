@@ -13,7 +13,7 @@
         background-color:#ecf4f3 ;
     }
     .header{
-        background-color: #ff7e67;
+        background-color: #132743;
         width: 100%;
         height: 60px;
         display: flex;
@@ -52,6 +52,7 @@
     }
     .header__menu--profile p{
         margin: 0px;
+        color: whi;
     }
     .header__menu:hover ul, ul:hover{
         display: block;
@@ -61,12 +62,35 @@
         margin: 12px 0px;
     }
     .header__menu li a{
-        color: #ff7e67;
+        color: #132743;
         text-decoration: none;
     }
     .header__menu li a: hover{
-        color: #ff7e67;
+        color: #132743;
         text-decoration: underline;
+    }
+    .searcher{
+        height: 300px;
+    }
+    .searcher__title{
+        color: #132743;
+        font-size: 30px;
+    }
+    .input{
+        border: 1.5px solid white;
+        border-radius: 25px;
+        opacity: 80%;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        height: 25px;
+        width: 85%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    ::placeholder{
+        color: #132743 ;
+    }
+    textarea:focus, input:focus{
+        outline: none;
     }
 </style>
 <body>
@@ -74,7 +98,7 @@
         <img class="header__img" src="img/logo.png" alt="Logo prinicpal">
         <div class="header__menu">
             <div class="header__menu--profile">
-                <img src="img/icons8-perfil-de-gato-64.png" alt="">
+                <img src="img/icons8-usuario-femenino-en-círculo-48.png" alt="">
                 <p>Profile</p>
                 <ul>
                     <li>
@@ -87,6 +111,10 @@
             </div>
         </div>
     </header>
+    <section class="searcher">
+        <h2 class="searcher__title">¿Qué deseas encontrar?</h2>
+        <input class="input" type="text" placeholder="Escribe aquí tu búsqueda..." >
+    </section>
     <p>
         Bienvenidx a tu galeria principal
     </p>
