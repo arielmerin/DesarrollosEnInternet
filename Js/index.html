@@ -3,24 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>📝Página para pruebas</title>
 </head>
-<style>
-    p::first-letter{
-        color: blue;
-        font-size: 25px;
-    }
-</style>
 <body>
-    <p>Por esooo joben 👮
-    </p>
-    <p> Gatito 😽</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
-    <p>Perrito 🙋</p>
+    <header class="header">
+        <img class="header__img" src="img/logo.png" alt="Logo prinicpal">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="img/icons8-usuario-femenino-en-círculo-48.png" alt="">
+                <p>Profile</p>
+                <ul>
+                    <li>
+                        <a href="/">Account</a>
+                    </li>
+                    <li>
+                        <a href="/">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Iniciar sesión</h2>
+            <form action="" class="login__container--form">
+                <input class="input" type="text" placeholder="Correo electrónico">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button" >Ingresar</button>
+                <div class="login__container--rememberme">
+                    <label >
+                        <input type="checkbox" id="cbox1" value="checkin" name="">Recuérdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div><img src="https://p.kindpng.com/picc/s/79-798362_google-plus-icon-png-white-accesorios-para-el.png" alt="">Inicia sesión con Google</div>
+                <div><img src="https://www.kindpng.com/picc/m/30-300669_twitter-logo-png-twitter-icons-png-white-transparent.png" alt="">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="/">Regístrate</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
 </body>
 </html>
