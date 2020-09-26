@@ -11,7 +11,7 @@ var ariel = {
 var ruth = {
     nombre: 'Ruth',
     apellido: 'Peña Hernández',
-    edad: 19
+    edad: 43
 }
 
 /**
@@ -36,3 +36,21 @@ imprimirNombreMayus({nombre: 'Aaaawow'})
 var {apellido} = ruth
 
 imprimePalabraMayus(apellido)
+
+function impimirNombreEdad(persona){
+    console.log(`¡Hola! mi nombre es ${persona.nombre} y tengo ${persona.edad} años de edad`)
+}
+impimirNombreEdad(ariel)
+impimirNombreEdad(ruth)
+/**
+ * Hacer que regrese el mismo objeto
+ * @param {persona} persona 
+ */
+function cumpleAnos(persona){
+    return{
+        ...persona,
+        edad: persona.edad + 1
+    }
+}
+
+
