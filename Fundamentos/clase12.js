@@ -37,8 +37,35 @@ var paula = {
 
 var personitasBBs = [sacha, alan, martin, dario, vicky, paula]
 
-for(let i = 0; i< personitasBBs.length; i++){
-    var nombre = personitasBBs[i]["nombre"]
-    var peso = personitasBBs[i].altura
-    console.log(` ${nombre} mide ${peso}m `)
-}
+// for(let i = 0; i< personitasBBs.length; i++){
+//     var nombre = personitasBBs[i]["nombre"]
+//     var peso = personitasBBs[i].altura
+//     console.log(` ${nombre} mide ${peso}m `)
+// }
+
+/**
+ * VAMOS A FILTRAR A LAS PERSONAS ALTAS
+ */
+const esAlta = ({altura}) => altura >= 1.8
+
+/**
+ * Suuuper raro, recibe una condición como un filtro y 
+ * esta condición va a recibir un tipo de lo que tengamos 
+ * listos
+ */
+
+
+
+// var personasAltas = personitasBBs.filter(esAlta)
+
+/**
+ * Otra forma de hacerlo
+ */
+
+ var personasAltas = personitasBBs.filter(function (persona){
+     return persona.altura > 1.8
+ })
+
+
+ const esBaja = (persona) => !esAlta(persona)
+ var personasNoAltas = personitasBBs.filter(esBaja)
