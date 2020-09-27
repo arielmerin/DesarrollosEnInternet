@@ -69,3 +69,22 @@ const esAlta = ({altura}) => altura >= 1.8
 
  const esBaja = (persona) => !esAlta(persona)
  var personasNoAltas = personitasBBs.filter(esBaja)
+
+// const pasarACentimetros = (persona) => {
+//     return {
+//         ...persona,
+//         altura: persona.altura * 100
+//     }
+// }
+
+
+/**
+ * Cuando vamos a regrear un nuevo objeto
+ * @param {} persona 
+ */
+const pasarACentimetros = persona => ({
+    ...persona,
+    altura: persona.altura *100
+})
+
+ var personasEnCM = personitasBBs.map(pasarACentimetros)
