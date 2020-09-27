@@ -81,6 +81,8 @@ imprimirSiEsMayor(ariel)
 function permitirAcceso(persona){
     if(!esMayorDeEdad(persona)){
         console.log('Acceso Denegado')
+    } else{
+        console.log('Adelante, cariño')
     }
 }
 
