@@ -1,37 +1,43 @@
 var sacha = {
     nombre: 'Sacha',
     apellido: 'Lifszyc',
-    altura: 1.72
+    altura: 1.72,
+    libros: 10
 }
 
 var alan = {
     nombre: 'Alan',
     apellido: 'Perez',
-    altura: 1.86
+    altura: 1.86,
+    libros: 175
 }
 
 var martin = {
     nombre: 'Martin',
     apellido: 'Gomez',
-    altura: 1.85
+    altura: 1.85,
+    libros: 79
 }
 
 var dario = {
     nombre: 'Dario',
     apellido: 'Juarez',
-    altura: 1.71
+    altura: 1.71,
+    libros: 965
 }
 
 var vicky = {
     nombre: 'Vicky',
     apellido: 'Zapata',
-    altura: 1.56
+    altura: 1.56,
+    libros: 875
 }
 
 var paula = {
     nombre: 'Paula',
     apellido: 'Barros',
-    altura: 1.76
+    altura: 1.76,
+    libros: 54
 }
 
 
@@ -88,3 +94,20 @@ const pasarACentimetros = persona => ({
 })
 
  var personasEnCM = personitasBBs.map(pasarACentimetros)
+
+
+ /**
+  * Reduce
+  * Reducir un array a un valor
+  */
+
+const bookReducer = (acum, {libros}) => acum += libros
+
+
+var totalLibros = personitasBBs.reduce(bookReducer, 0)
+
+var totalLibrosAPata = 0
+
+for( let i = 0; i < personitasBBs.length; i++){
+    totalLibrosAPata = totalLibrosAPata + personitasBBs[i].libros
+}
