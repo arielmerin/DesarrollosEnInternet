@@ -41,9 +41,15 @@ const MAYORIA_DE_EDAD = 18
 /**
  * Ejemplo de cómo podemos cambiar un nombre, es una 
  * función anónima, no tiene nombre 
+ * 
+ * Cuando una función sólo recibe un parámetro, entonces 
+ * podemos omitir los paréntesis
+ * 
+ * Cuando una llave sólo regresa algo, podemos omitir
+ * la parte del return y las llaves de la función
  * @param {} persona 
  */
-const esMayorDeEdad = (persona) => {
+const esMayorDeEdad = persona => {
     return persona.edad >= MAYORIA_DE_EDAD
 }
 /**
@@ -55,9 +61,10 @@ const esMayorDeEdadOneline = persona => persona.edad >= MAYORIA_DE_EDAD
 
 /**
  * Otra forma de hacer lo mismo pero con la persona desarticulada
+ * Des-estructurada
  * @param {*} persona 
  */
-const esMayorDeEdadOneline = ({edad}) => edad >= MAYORIA_DE_EDAD
+const esMayorDeEdadOnelineDesc = ({edad}) => edad >= MAYORIA_DE_EDAD
 
 function imprimirSiEsMayor(persona){
     // Ariel es mayor de edad
@@ -71,6 +78,11 @@ function imprimirSiEsMayor(persona){
 
 imprimirSiEsMayor(ariel)
 
+function permitirAcceso(persona){
+    if(!esMayorDeEdad(persona)){
+        console.log('Acceso Denegado')
+    }
+}
 
-
+const esMenorDeEdad = persona => !esMayorDeEdadOneline(persona)
 
