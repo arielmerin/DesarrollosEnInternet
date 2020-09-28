@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ea9919-18be-49e3-81ae-9092936cabf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Fundamentos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clase14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clase14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase13.html" beforeDir="false" afterPath="$PROJECT_DIR$/clase13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase13.js" beforeDir="false" afterPath="$PROJECT_DIR$/clase13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fundamentos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fundamentos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clase14.html" beforeDir="false" afterPath="$PROJECT_DIR$/clase14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clase14.js" beforeDir="false" afterPath="$PROJECT_DIR$/clase14.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +41,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1i7K4f0yn4FaNHBGQGMIniFcUdl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -66,7 +67,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601253001024</updated>
-      <workItem from="1601253002159" duration="5782000" />
+      <workItem from="1601253002159" duration="12742000" />
     </task>
     <servers />
   </component>
@@ -100,17 +102,21 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="310" y="53" width="736" height="635" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1601253700589" />
-    <state x="168" y="-20" key="SettingsEditor" timestamp="1601258717761">
+    <state x="170" y="6" key="SettingsEditor" timestamp="1601267200122">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="168" y="-20" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601258717761" />
+    <state x="170" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601267200122" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1601253715070">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1366.768@0.0.1366.768" timestamp="1601253715070" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601258581668">
+    <state x="345" y="176" key="run.anything.popup" timestamp="1601265354150">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601258581668" />
+    <state x="345" y="176" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1601265354150" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601265642858">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601265642858" />
   </component>
 </project>
