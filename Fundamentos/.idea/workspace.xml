@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ea9919-18be-49e3-81ae-9092936cabf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SimonDice/simon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimonDice/simon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimonDice/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clase14.js" beforeDir="false" afterPath="$PROJECT_DIR$/clase14.js" afterDir="false" />
     </list>
@@ -32,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -59,6 +63,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,8 +71,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SimonDice" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +89,7 @@
       <updated>1601253001024</updated>
       <workItem from="1601253002159" duration="12946000" />
       <workItem from="1601308086218" duration="1362000" />
+      <workItem from="1601348507900" duration="4355000" />
     </task>
     <servers />
   </component>
@@ -102,10 +113,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="310" y="53" width="736" height="635" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1601253700589" />
-    <state x="170" y="6" key="SettingsEditor" timestamp="1601267200122">
+    <state x="139" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601350764501">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="170" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601267200122" />
+    <state x="139" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1601350764501" />
+    <state x="170" y="-7" key="SettingsEditor" timestamp="1601352536343">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="170" y="-7" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601352536343" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1601253715070">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -114,9 +129,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="345" y="176" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1601265354150" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601265642858">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601350259553">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601265642858" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601350259553" />
   </component>
 </project>

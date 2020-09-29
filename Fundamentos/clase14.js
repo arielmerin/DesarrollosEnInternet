@@ -47,20 +47,41 @@ function onError(id){
  *
  * Esta estructura es CALLBACK HELL
  */
-for (let i = 1; i <25; i++) {
+// for (let i = 1; i <25; i++) {
+//
+//     obtenerPersonaje(i)
+//         .then(personaje =>{
+//         personajes.push(new Personaje(personaje.name, parseInt(personaje.height)))
+//     }).catch(function (id){
+//         onError(id)
+//     })
+//
+// }
+/**
+ * Esta es la manera de utilizar async-await para las promesas en JS
+ * No todos los navegadores lo soportan un polifield
+ * @returns {Promise<void>}
+ */
+async function obtenerPersonajes(){
+    var ids = [1,2,3,4,5,6]
+    var promesas = ids.map(id => obtenerPersonaje(id))
+    try{
+        var personajes = await Promise.all(promesas)
+        console.log(personajes)
+    }catch (idError){
+        onError(idError)
+    }
 
-    obtenerPersonaje(i)
-        .then(personaje =>{
-        personajes.push(new Personaje(personaje.name, parseInt(personaje.height)))
-    }).catch(function (id){
-        onError(id)
-    })
-
+    // Promise
+    //     .all(promesas)
+    //     .then(personajes => console.log(personajes))
+    //     .catch(onError)
 }
+obtenerPersonajes()
 
 const esAlto = (personaje) => parseInt(personaje.altura) >= 100
 
-var personajesAltos = personajes.filter(esAlto)
-console.log(personajesAltos)
+// var personajesAltos = personajes.filter(esAlto)
+// console.log(personajesAltos)
 
 //Orden para que nos de como lo fuimos pidiendo al servidor
