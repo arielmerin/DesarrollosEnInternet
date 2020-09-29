@@ -49,7 +49,8 @@ function onError(id){
  */
 for (let i = 1; i <25; i++) {
 
-    obtenerPersonaje(i).then(function (personaje){
+    obtenerPersonaje(i)
+        .then(personaje =>{
         personajes.push(new Personaje(personaje.name, parseInt(personaje.height)))
     }).catch(function (id){
         onError(id)
