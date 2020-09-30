@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ea9919-18be-49e3-81ae-9092936cabf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SimonDice/simon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimonDice/simon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimonDice/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clase14.js" beforeDir="false" afterPath="$PROJECT_DIR$/clase14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimonDice/simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/SimonDice/simon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimonDice/simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/SimonDice/simon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimonDice/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/SimonDice/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -89,7 +88,8 @@
       <updated>1601253001024</updated>
       <workItem from="1601253002159" duration="12946000" />
       <workItem from="1601308086218" duration="1362000" />
-      <workItem from="1601348507900" duration="4355000" />
+      <workItem from="1601348507900" duration="4681000" />
+      <workItem from="1601413111000" duration="9325000" />
     </task>
     <servers />
   </component>
@@ -117,10 +117,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="139" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1601350764501" />
-    <state x="170" y="-7" key="SettingsEditor" timestamp="1601352536343">
+    <state x="170" y="-7" key="SettingsEditor" timestamp="1601432074516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="170" y="-7" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601352536343" />
+    <state x="170" y="-7" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601432074516" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1601253715070">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

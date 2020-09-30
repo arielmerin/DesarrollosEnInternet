@@ -4,6 +4,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .gameboard {
@@ -30,19 +31,19 @@ body {
     float: left;
 }
 
-.celeste {
+.azul {
     background: radial-gradient(at bottom right ,#87A3BF, #183FA7);
 }
 
-.celeste.light {
+.azul.light {
     background: #87A3BF;
 }
 
-.violeta {
+.magenta {
     background: radial-gradient(at bottom left, #E4BADD,#FA14FF);
 }
 
-.violeta.light {
+.magenta.light {
     background: #e056fd;
 }
 
