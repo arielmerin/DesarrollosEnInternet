@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradientes</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: sans-serif;
+        }
+        main{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .button{
+            padding: 16px 32px;
+            font-size: 26px;
+            font-weight: 700;
+            border-radius:23px;
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            text-transform: uppercase;
+        }
+        .button:focus{
+            border: none;
+            outline: none;
+        }
+        section{
+            padding: 24px 0;
+            border-bottom: 1px solid white;
+        }
+        .button.gradient{
+            border: 0;
+            outline: 0;
+            background-image: linear-gradient(to right, #DC2424, #4A569D);
+            transition: all cubic-bezier(0.215,0610,0.355,1) .5s;
+        }
+        .button.gradient:hover{
+            cursor: pointer;
+            transform: translateY(1px);
+        }
+        .button.gradient:active{
+            transform: translateY(3px);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <button class="button">Ingresa</button>
+        <button class="button gradient">Registrate</button>
+    </section>
+</main>
+
+</body>
+</html>
